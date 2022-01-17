@@ -39,11 +39,7 @@ public class Main {
 
 //		check if the array is sorted in ascending order or in descnending oerder
 		boolean isAsc;
-		if(arr[start] < arr[end]) {
-			isAsc = true; // arr is in ascending order
-		} else {
-			isAsc = false;
-		}
+		isAsc = arr[start] < arr[end]; // arr is in ascending order
 
 		while(start <=end){
 			// find the middle element
